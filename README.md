@@ -1,5 +1,5 @@
 # DSA-CP-Code
-Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cleanly by rating, topic, contest and difficulty. Synced by SolveBase.
+Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, topic, contest and difficulty. Synced by SolveBase.
 
 ---
 
@@ -12,7 +12,7 @@ Synced automatically by SolveBase.
 
 ## Codeforces
 
-Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshuguptacoder), organized by difficulty rating.
+Solutions by [priyanshuguptacoder](https://codeforces.com/profile/), organized by difficulty rating.
 
 **Solved: 0**
 
