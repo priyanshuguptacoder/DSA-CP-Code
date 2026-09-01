@@ -8,7 +8,7 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 6**
+**Total solved: 7**
 
 ## Codeforces
 
@@ -25,11 +25,12 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 
 Solutions organized by primary topic folder.
 
-**Solved: 2**
+**Solved: 3**
 
 | Topic | Solved |
 | --- | --- |
 | [breadth-first-search](./leetcode/breadth-first-search) | 1 |
+| [dynamic-programming](./leetcode/dynamic-programming) | 1 |
 | [linked-list](./leetcode/linked-list) | 1 |
 
 
