@@ -89,7 +89,7 @@ void solve() {
         cout << 30 * (n / 2) << endl;
     }
     else{
-        cout << 20 + (30 * (n / 2)) << endl;
+        cout << 20 + (30 * ((n - 1) / 2)) << endl;
     }
 }
 
