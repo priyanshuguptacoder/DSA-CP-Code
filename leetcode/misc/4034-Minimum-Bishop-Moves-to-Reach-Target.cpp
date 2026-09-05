@@ -1,15 +1,20 @@
 class Solution {
 public:
     int minBishopMoves(vector<int>& source, vector<int>& target) {
-        if((source[1] + source[0]) % 2 != (target[1] + target[0]) % 2){ //If both not on same colour then not possible
+        int sr = source[0];
+        int sc = source[1];
+        int tr = target[0];
+        int tc = target[1];
+
+        if ((sr + sc) % 2 != (tr + tc) % 2){ // Different colors → impossible
             return -1;
         }
 
-        if((source[0] + source[1] == target[0] + target[1]) || (source[1] - source[0] == target[1] - target[0])){
+        
+        if (abs(sr - tr) == abs(sc - tc)){ // Same diagonal → one move
             return 1;
         }
-        else{
-            return 2;
-        }
+
+        return 2; // Same color, different diagonal → two moves
     }
 };
