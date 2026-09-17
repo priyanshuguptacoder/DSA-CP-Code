@@ -11,7 +11,7 @@ public:
         while(j < n){
             currSum += arr[j];
 
-            while(i < j && currSum > target){
+            while(i <= j && currSum > target){
                 currSum -= arr[i++];
             }
 
