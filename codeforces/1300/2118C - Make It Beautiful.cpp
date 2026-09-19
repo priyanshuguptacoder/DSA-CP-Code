@@ -96,7 +96,7 @@ void solve() {
 
     for(int i=0; i<n; i++){
         cin >> arr[i];
-        ans += __builtin_popcountll(arr[i]);
+        ans += __builtin_popcountll(arr[i]); //it's count number of one in a number
     }
 
     vll costs;
