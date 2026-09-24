@@ -8,13 +8,13 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 91**
+**Total solved: 92**
 
 ## Codeforces
 
 Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshuguptacoder), organized by difficulty rating.
 
-**Solved: 40**
+**Solved: 41**
 
 | Difficulty | Solved |
 | --- | --- |
@@ -29,6 +29,7 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 | [1700](./codeforces/1700) | 2 |
 | [1800](./codeforces/1800) | 2 |
 | [1900](./codeforces/1900) | 1 |
+| [2000](./codeforces/2000) | 1 |
 | [Unrated](./codeforces/Unrated) | 10 |
 
 
