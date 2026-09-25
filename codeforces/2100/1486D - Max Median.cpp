@@ -96,7 +96,7 @@ ll power(ll a,ll b){
 
 bool check(int mid, vi& arr, int k, int n){
     int bal = 0;
-    vi pref(n+1, 0);
+    vi prefSum(n+1, 0);
     vi minPrefSum(n+1, 0);
 
     loop(i, 0, n){
@@ -107,12 +107,13 @@ bool check(int mid, vi& arr, int k, int n){
             bal--;
         }
 
-        pref[i+1] = bal;
-        minPrefSum[i+1] = min(bal, minPrefSum[i]); //Store minimum prefix sum
+        //We want median of atleast k size and its take low index when even then it means grtaer thsn mid have to more so greater mid - smaller mid > 0 this concept we use in this we can do prefSum[r] - prefSum[l] and maximize it so prefSum[l] to be minimum so take smallest prefSumix sum and so why prefSumSum and minimum prefSumix sum to be stored
+        prefSum[i+1] = bal;
+        minPrefSum[i+1] = min(bal, minPrefSum[i]); //Store minimum prefSumix sum
     }
 
     loop(i, k, n+1){
-        if(pref[i] - minPrefSum[i-k] > 0){
+        if(prefSum[i] - minPrefSum[i-k] > 0){
             return true;
         }
     }
