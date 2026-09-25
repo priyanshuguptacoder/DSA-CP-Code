@@ -10,6 +10,7 @@ private:
             set<string> next = parseTerm();
             result.insert(next.begin(), next.end());
         }
+        
         return result;
     }
 
