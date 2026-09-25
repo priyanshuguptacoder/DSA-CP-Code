@@ -104,6 +104,8 @@ void solve() {
     unordered_map<int, int> mp;
     int maxFreq = INT_MIN;
 
+    // 1st occurrence of all numbers → decreasing 2nd occurrence of numbers → decreasing 3rd occurrence of numbers → decreasing ... => This will give maximum sum of Modes
+
     loop(i, 0, n){
         mp[arr[i]]++;
         maxFreq = max(maxFreq, mp[arr[i]]);
