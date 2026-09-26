@@ -8,7 +8,8 @@ public:
         }
 
         string ans;
-        for(int i=0; i<n; i++){
+        int i = 0;
+        while(i < n){
             if(s[i] == '('){
                 int j = i + 1;
                 while(s[j] != ')'){
@@ -23,10 +24,11 @@ public:
                     ans += "?";
                 }
 
-                i = j;
+                i = j + 1;
             }
             else{
                 ans += s[i];
+                i++;
             }
         }
 
