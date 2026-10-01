@@ -104,7 +104,7 @@ void solve() {
 
     ll ans = 0;
     loop(i, 0, n){
-        auto it = lower_bound(all(b), a[i]);
+        auto it = lower_bound(all(b), a[i]); //Its return >= x so its easy to find which is nearsest smallest and --it usse phele dekh lenge ki wo kahi usse chota toh nahi aa raha
         ll dist = INT_MAX;
 
         if(it != b.end()){ //Tower is at right
