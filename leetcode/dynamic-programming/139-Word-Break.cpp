@@ -8,8 +8,8 @@ private:
         if(dp[idx] != -1){
             return dp[idx];
         }
-        int len = s.length();
 
+        int len = s.length();
         for(int i=idx+1; i<=len; i++){
             string word = s.substr(idx, i - idx); //Take substring from idx to i - 1
 
