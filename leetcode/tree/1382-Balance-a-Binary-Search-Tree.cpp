@@ -44,7 +44,7 @@ private:
 public:
     TreeNode* balanceBST(TreeNode* root) {
         vector<int> in;
-        inorder(root, in);
+        inorder(root, in); //Inorder traversal gives sorted array so we can use mid and before mid that is left and after mid that is thr root right part
 
         return constructBST(in);
     }
