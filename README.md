@@ -8,7 +8,7 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 157**
+**Total solved: 158**
 
 ## Codeforces
 
@@ -38,7 +38,7 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 
 Solutions organized by primary topic folder.
 
-**Solved: 78**
+**Solved: 79**
 
 | Topic | Solved |
 | --- | --- |
@@ -48,7 +48,7 @@ Solutions organized by primary topic folder.
 | [dynamic-programming](./leetcode/dynamic-programming) | 13 |
 | [graph](./leetcode/graph) | 7 |
 | [hash-table](./leetcode/hash-table) | 6 |
-| [heap-priority-queue](./leetcode/heap-priority-queue) | 1 |
+| [heap-priority-queue](./leetcode/heap-priority-queue) | 2 |
 | [linked-list](./leetcode/linked-list) | 3 |
 | [math](./leetcode/math) | 5 |
 | [misc](./leetcode/misc) | 13 |
