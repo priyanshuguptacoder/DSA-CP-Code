@@ -16,7 +16,7 @@ public:
     vector<int> getNewsFeed(int userId) {
         priority_queue<tuple<int, int, int, int>> pq; //Max Heap it can store timeStamps, tweetId, userId, index
         
-        if(!tweets[userId].empty()){ //User own tweets
+        if(!tweets[userId].empty()){ //User own tweets -> Phele ham uske last wale post ko lenge because sabse recent uss user ke liye wahi hai aur saare following wale ke liye ek ek tweet priority queue me push kar lenege usme jo nikalte jayega uka idx-- kar ke uss unordered map wale me vectore ka idx minus kar ke karte jaynege 
             int idx = tweets[userId].size() - 1;
 
             auto [time, tweetId] = tweets[userId][idx];
