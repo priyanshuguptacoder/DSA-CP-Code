@@ -8,7 +8,7 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 165**
+**Total solved: 166**
 
 ## Codeforces
 
@@ -38,7 +38,7 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 
 Solutions organized by primary topic folder.
 
-**Solved: 86**
+**Solved: 87**
 
 | Topic | Solved |
 | --- | --- |
@@ -57,7 +57,7 @@ Solutions organized by primary topic folder.
 | [stack](./leetcode/stack) | 7 |
 | [string](./leetcode/string) | 1 |
 | [tree](./leetcode/tree) | 8 |
-| [trie](./leetcode/trie) | 1 |
+| [trie](./leetcode/trie) | 2 |
 
 
 ## CSES
