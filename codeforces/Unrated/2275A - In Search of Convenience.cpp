@@ -98,7 +98,16 @@ void solve() {
     int x, y, r;
     cin >> x >> y >> r;
 
-    cout << x + r << " " << y << endl;
+    for(int i=-35; i<=35; i++){
+        for(int j=-35; j<=35; j++){
+            int dist = (x - i) * (x - i) + (y - j) * (y - j);
+
+            if(dist == (r * r)){
+                cout << i << " " << j << endl;
+                return ;
+            }
+        }
+    }
 }
 
 int main() {
