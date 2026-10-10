@@ -8,7 +8,7 @@
 
     Competitive Programming Template
     Author: Priyanshu Gupta
-    Submission At : 2026-10-09 01:27:11
+    Submission At : 2026-10-10 01:27:11
 */
 
 #include <iostream>
