@@ -97,10 +97,10 @@ ll power(ll a,ll b){
 bool canFinish(int t, vi& cnt){
     ll extraTime = 0, freeTime = 0;
     for(int c : cnt){
-        if(c > t){
+        if(c > t){ //Agar jayde cnt hai aur time kam hai toh extra time
             extraTime += c - t;
         }
-        else{
+        else{ //Dushre me help kara do jisme proficient na ho
             freeTime += (t - c) / 2;
         }
     }
