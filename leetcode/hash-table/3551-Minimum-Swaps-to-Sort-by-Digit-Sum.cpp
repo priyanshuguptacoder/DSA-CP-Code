@@ -15,13 +15,9 @@ private:
 public:
     int minSwaps(vector<int>& nums) {
         int n = nums.size();
-        unordered_map<int, int> mp; //num, original idx
+        vector<int> afterSort(nums);
 
-        for(int i=0; i<n; i++){
-            mp[nums[i]] = i;
-        }
-
-        sort(nums.begin(), nums.end(), [&](int a, int b) {
+        sort(afterSort.begin(), afterSort.end(), [&](int a, int b) {
             if(digSum(a) != digSum(b)){
                 return digSum(a) < digSum(b);
             }
@@ -29,25 +25,28 @@ public:
             return a < b;
         });
 
-        vector<bool> vis(n, false);
-        int swaps = 0;
-
+        unordered_map<int, int> mp; //num, idx -> before sorting
         for(int i=0; i<n; i++){
-            if(vis[i]){
+            mp[nums[i]] = i;
+        }
+
+        int swapCnt = 0;
+        for(int i=0; i<n; i++){
+            int expVal = afterSort[i];
+            int currVal = nums[i];
+
+            if(expVal == currVal){
                 continue;
             }
 
-            int j = i;
-            int cycle = 0;
-            while(!vis[j]){
-                vis[j] = true;
-                j = mp[nums[j]];
-                cycle++;
-            }
+            int idx = mp[expVal];
+            swap(nums[i], nums[idx]);
 
-            swaps += cycle - 1;
+            mp[expVal] = i;
+            mp[currVal] = idx;
+            swapCnt++;
         }
 
-        return swaps;
+        return swapCnt++;
     }
 };
