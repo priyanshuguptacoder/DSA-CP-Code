@@ -8,7 +8,7 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 208**
+**Total solved: 209**
 
 ## Codeforces
 
@@ -38,7 +38,7 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 
 Solutions organized by primary topic folder.
 
-**Solved: 101**
+**Solved: 102**
 
 | Topic | Solved |
 | --- | --- |
@@ -49,7 +49,7 @@ Solutions organized by primary topic folder.
 | [graph](./leetcode/graph) | 7 |
 | [hash-table](./leetcode/hash-table) | 10 |
 | [heap-priority-queue](./leetcode/heap-priority-queue) | 5 |
-| [linked-list](./leetcode/linked-list) | 3 |
+| [linked-list](./leetcode/linked-list) | 4 |
 | [math](./leetcode/math) | 6 |
 | [misc](./leetcode/misc) | 14 |
 | [segment-tree](./leetcode/segment-tree) | 3 |
