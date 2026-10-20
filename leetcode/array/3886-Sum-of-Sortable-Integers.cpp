@@ -22,25 +22,23 @@ public:
 
         for(int k = 1; k <= n; k++){
             if (n % k != 0) continue;
-
             bool valid = true;
 
             for(int start = 0; start < n; start += k){
                 int end = start + k - 1;
-
                 int drops = prefDrop[end] - prefDrop[start];
 
-                if (nums[end] > nums[start]) {
+                if(nums[end] > nums[start]){
                     drops++;
                 }
 
-                if (drops > 1 || prefMax[start] > suffMin[start]) {
+                if(drops > 1 || prefMax[start] > suffMin[start]){
                     valid = false;
                     break;
                 }
             }
 
-            if (valid) {
+            if(valid){
                 ans += k;
             }
         }
