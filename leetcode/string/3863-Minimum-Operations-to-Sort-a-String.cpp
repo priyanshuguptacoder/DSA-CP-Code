@@ -26,6 +26,6 @@ public:
             }
         }
 
-        return 3; //Both extreme are stuck at wrong end
+        return 3; //String start with maximum and end with minimum
     }
 };
