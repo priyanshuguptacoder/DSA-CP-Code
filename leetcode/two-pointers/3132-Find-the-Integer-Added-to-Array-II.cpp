@@ -23,7 +23,7 @@ public:
                     p1++;
                     removed++;
                 }
-                else{
+                else{ //First element if far greater than second array so break the loop and check next element of nums1
                     removed = 3;
                     break;
                 }
