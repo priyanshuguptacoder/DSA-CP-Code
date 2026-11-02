@@ -8,7 +8,7 @@ Codeforces, LeetCode, CodeChef &amp; solutions, organized cleanly by rating, top
 
 Synced automatically by SolveBase.
 
-**Total solved: 280**
+**Total solved: 281**
 
 ## Codeforces
 
@@ -39,7 +39,7 @@ Solutions by [priyanshuguptacoder](https://codeforces.com/profile/priyanshugupta
 
 Solutions organized by primary topic folder.
 
-**Solved: 139**
+**Solved: 140**
 
 | Topic | Solved |
 | --- | --- |
@@ -59,6 +59,7 @@ Solutions organized by primary topic folder.
 | [string](./leetcode/string) | 5 |
 | [tree](./leetcode/tree) | 9 |
 | [trie](./leetcode/trie) | 3 |
+| [two-pointers](./leetcode/two-pointers) | 1 |
 | [union-find](./leetcode/union-find) | 2 |
 
 
