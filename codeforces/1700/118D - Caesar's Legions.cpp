@@ -1,9 +1,3 @@
-/*
-    Competitive Programming Template
-    Author: Priyanshu Gupta
-    Submission At : 2026-09-16 22:25:52
-*/
-
 #include <iostream>
 #include <vector>
 #include <string>
